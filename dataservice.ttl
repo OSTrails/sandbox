@@ -1,1 +1,35 @@
-test
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<https://ostrails.github.io/sandbox/dataservice.ttl>
+  a dcat:Resource, dcat:DataService;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Test for the Index";
+  dcterms:title "Test for the Index";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-05-22T12:14:01.601685077Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2024-08-09T13:39:04.190155586Z"^^xsd:dateTime;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  dcterms:description "An implementation of the Beacon2 \"Individuals\" endpoint for getting patient counts that match a query";
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://ostrails.github.io/sandbox/dataservice.ttl#identifier>;
+  dcterms:accessRights <https://ostrails.github.io/sandbox/dataservice.ttl#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Mark";
+      foaf:logo <https://example.org/logo.png>
+    ];
+  dcterms:keyword "Something", "Cool";
+  dcat:contactPoint [ a <http://www.w3.org/2006/vcard/ns#Agent>;
+      <http://www.w3.org/2006/vcard/ns#url> <https://fairdata.systems>
+    ];
+  dcat:theme <https://example.org/ontology/term>;
+
+<https://ostrails.github.io/sandbox/dataservice.ttl#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://ostrails.github.io/sandbox/dataservice.ttl" .
+
+<https://ostrails.github.io/sandbox/dataservice.ttl#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
