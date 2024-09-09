@@ -23,7 +23,7 @@
   dcat:contactPoint [ a <http://www.w3.org/2006/vcard/ns#Agent>;
       <http://www.w3.org/2006/vcard/ns#url> <https://fairdata.systems>
     ];
-  dcat:theme <https://example.org/ontology/term>;
+  dcat:theme <https://example.org/ontology/term>.
 
 <https://ostrails.github.io/sandbox/dataservice.ttl#identifier>
   a <http://purl.org/spar/datacite/Identifier>;
