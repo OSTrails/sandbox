@@ -16,7 +16,8 @@
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://ostrails.github.io/sandbox/fdp.ttl#identifier>;
   <http://www.re3data.org/schema/3-0#repositoryIdentifier> <https://ostrails.github.io/sandbox/fdp.ttl#identifier>;
   dcterms:accessRights <https://ostrails.github.io/sandbox/fdp.ttl#accessRights>;
-  dcat:theme <http://www.orpha.net/ORDO/Orphanet_98895>, <http://www.orpha.net/ORDO/Orphanet_98896>;
+  dcat:theme <http://www.orpha.net/ORDO/Orphanet_98895>;
+  <https://w3id.org/fdp/fdp-o#metadataCatalog> <https://ostrails.github.io/sandbox/fdp.ttl#catalog>;
   dcat:keyword "Coolness" .
 
 <https://ostrails.github.io/sandbox/fdp.ttl#identifier> a <http://purl.org/spar/datacite/Identifier>;
@@ -25,7 +26,9 @@
 <https://ostrails.github.io/sandbox/fdp.ttl#accessRights> a dcterms:RightsStatement;
   dcterms:description "This resource has no access restriction" .
 
-<https://ostrails.github.io/sandbox/fdp.ttl/> a ldp:DirectContainer, ldp:DirectContainer;
-  dcterms:title "Catalogs";
+<https://ostrails.github.io/sandbox/fdp.ttl#catalog/> a ldp:DirectContainer, ldp:DirectContainer;
+  dcterms:title "Catalogs", "Catalogs";
+  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
+  ldp:membershipResource <https://ostrails.github.io/sandbox/fdp.ttl>;
   ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
 
