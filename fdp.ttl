@@ -4,17 +4,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 
-<https://ostrails.github.io/sandbox/fdp.ttl> a dcat:Resource, <https://w3id.org/fdp/fdp-o#MetadataService>, <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
+<https://ostrails.github.io/sandbox/fdp.ttl> a dcat:Resource, ldp:Container, <https://w3id.org/fdp/fdp-o#MetadataService>, <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
   dcterms:title "Test FDFP";
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
   dcterms:description "TGestFDP";
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
   dcat:theme <http://www.orpha.net/ORDO/Orphanet_98895>;
-  <https://w3id.org/fdp/fdp-o#metadataCatalog> <https://ostrails.github.io/sandbox/fdp.ttl#catalog>;
+  ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
   dcat:keyword "Coolness" .
 
-<https://ostrails.github.io/sandbox/fdp.ttl#catalog/> a ldp:DirectContainer, ldp:DirectContainer;
-  dcterms:title "Catalogs", "Catalogs";
-  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
-  ldp:membershipResource <https://ostrails.github.io/sandbox/fdp.ttl>;
-  ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
