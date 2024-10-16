@@ -14,8 +14,7 @@
   dcat:keyword "Coolness" .
 
 
-<https://ostrails.github.io/sandbox/fdp.ttl#catalog/> a ldp:DirectContainer, ldp:DirectContainer;
-  dcterms:title "Catalogs", "Catalogs";
+<https://ostrails.github.io/sandbox/fdp.ttl#catalog/> a ldp:DirectContainer;
   ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
   ldp:membershipResource <https://ostrails.github.io/sandbox/fdp.ttl>;
   ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
