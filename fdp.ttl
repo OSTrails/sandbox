@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 
-<https://ostrails.github.io/sandbox/fdp.ttl> a <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
+<https://ostrails.github.io/sandbox/fdp.ttl>  a dcat:Resource, <https://w3id.org/fdp/fdp-o#MetadataService>, <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
   <http://www.w3.org/2000/01/rdf-schema#label> "test fdp";
   dcterms:title "Test FDFP";
   dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
