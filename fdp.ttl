@@ -10,11 +10,10 @@
   dcterms:description "TGestFDP";
   dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
   dcat:theme <http://www.orpha.net/ORDO/Orphanet_98895>;
-  <https://w3id.org/fdp/fdp-o#test> <https://ostrails.github.io/sandbox/fdp.ttl#catalog>;
+  ldp:contains  <https://ostrails.github.io/sandbox/fdp.ttl#catalog>;
   dcat:keyword "Coolness" .
 
 <https://ostrails.github.io/sandbox/fdp.ttl#catalog/> a ldp:DirectContainer;
-  dcterms:title "Catalogs", "Catalogs";
-  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#test>;
+  ldp:hasMemberRelation ldp:contains ;
   ldp:membershipResource <https://ostrails.github.io/sandbox/fdp.ttl>;
   ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
