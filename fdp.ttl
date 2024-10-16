@@ -23,6 +23,5 @@
 <https://ostrails.github.io/sandbox/fdp.ttl#container/> a ldp:DirectContainer;
   dcterms:title "Catalogs";
   ldp:membershipResource <https://ostrails.github.io/sandbox/fdp.ttl>;
-  ldp:hasMemberRelation", <https://w3id.org/fdp/fdp-o#metadataCatalog>;
+  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
   ldp:contains <https://ostrails.github.io/sandbox/dataservice.ttl> .
-
