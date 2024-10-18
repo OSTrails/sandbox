@@ -33,7 +33,8 @@
 <https://ostrails.github.io/sandbox/dataservice.ttl#fdp> a <https://w3id.org/fdp/fdp-o#FAIRDataPoint>,
     <https://w3id.org/fdp/fdp-o#MetadataService>,
     <http://www.w3.org/ns/dcat#Resource>;
-  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl#container> .
+  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl#container>;
+  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable> .
 
 <https://ostrails.github.io/sandbox/dataservice.ttl#identifier> a <http://purl.org/spar/datacite/Identifier>;
   <http://purl.org/dc/terms/identifier> "https://ostrails.github.io/sandbox/dataservice.ttl" .
