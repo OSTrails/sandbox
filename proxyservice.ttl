@@ -1,3 +1,22 @@
+<https://ostrails.github.io/sandbox/dataservice.ttl#accessRights> a <http://purl.org/dc/terms/RightsStatement>;
+  <http://purl.org/dc/terms/description> "This resource has no access restriction" .
+
+<https://ostrails.github.io/sandbox/dataservice.ttl#container> a <http://www.w3.org/ns/ldp#DirectContainer>;
+  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl>;
+  <http://www.w3.org/ns/ldp#hasMemberRelation> <http://www.w3.org/ns/ldp#contains>,
+    <http://www.w3.org/ns/dcat#service>;
+  <http://www.w3.org/ns/ldp#membershipResource> <https://ostrails.github.io/sandbox/dataservice.ttl#fdp>,
+    <https://ostrails.github.io/sandbox/dataservice.ttl> .
+
+<https://ostrails.github.io/sandbox/dataservice.ttl#fdp> a <https://w3id.org/fdp/fdp-o#FAIRDataPoint>,
+    <https://w3id.org/fdp/fdp-o#MetadataService>,
+    <http://www.w3.org/ns/dcat#Resource>;
+  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl#container>;
+  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable> .
+
+<https://ostrails.github.io/sandbox/dataservice.ttl#identifier> a <http://purl.org/spar/datacite/Identifier>;
+  <http://purl.org/dc/terms/identifier> "https://ostrails.github.io/sandbox/dataservice.ttl" .
+
 <https://ostrails.github.io/sandbox/dataservice.ttl> a <http://www.w3.org/ns/dcat#Resource>,
     <http://www.w3.org/ns/dcat#DataService>;
   <http://www.w3.org/2000/01/rdf-schema#label> "Test for the Index";
@@ -18,23 +37,7 @@
     <http://www.w3.org/2006/vcard/ns#url> <https://fairdata.systems>
   ];
   <http://www.w3.org/ns/dcat#theme> <https://example.org/ontology/term>;
+  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable>;
   <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://ostrails.github.io/sandbox/dataservice.ttl#identifier>;
   <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-05-22T12:14:01.601685077Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
   <https://w3id.org/fdp/fdp-o#metadataModified> "2024-08-09T13:39:04.190155586Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
-
-<https://ostrails.github.io/sandbox/dataservice.ttl#accessRights> a <http://purl.org/dc/terms/RightsStatement>;
-  <http://purl.org/dc/terms/description> "This resource has no access restriction" .
-
-<https://ostrails.github.io/sandbox/dataservice.ttl#container> a <http://www.w3.org/ns/ldp#DirectContainer>;
-  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl>;
-  <http://www.w3.org/ns/ldp#hasMemberRelation> <http://www.w3.org/ns/ldp#contains>;
-  <http://www.w3.org/ns/ldp#membershipResource> <https://ostrails.github.io/sandbox/dataservice.ttl#fdp> .
-
-<https://ostrails.github.io/sandbox/dataservice.ttl#fdp> a <https://w3id.org/fdp/fdp-o#FAIRDataPoint>,
-    <https://w3id.org/fdp/fdp-o#MetadataService>,
-    <http://www.w3.org/ns/dcat#Resource>;
-  <http://www.w3.org/ns/ldp#contains> <https://ostrails.github.io/sandbox/dataservice.ttl#container>;
-  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable> .
-
-<https://ostrails.github.io/sandbox/dataservice.ttl#identifier> a <http://purl.org/spar/datacite/Identifier>;
-  <http://purl.org/dc/terms/identifier> "https://ostrails.github.io/sandbox/dataservice.ttl" .
