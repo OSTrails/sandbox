@@ -7,7 +7,7 @@
 
 <urn:fairchampion:testmetadata:individual0a7243ee-f2d6-41f2-93d3-494baee120bd> a <http://www.w3.org/2006/vcard/ns#Individual>;
   <http://www.w3.org/2006/vcard/ns#fn> "Mark D Wilkinson"@en;
-  <http://www.w3.org/2006/vcard/ns#hasEmail> <mark.wilkinson@upm.es> .
+  <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:mark.wilkinson@upm.es> .
 
 <urn:fairchampion:testmetadata:org:cf3f05b1-e971-4367-975f-ddd88f1ac946> a <http://www.w3.org/2006/vcard/ns#Organization>;
   <http://www.w3.org/2006/vcard/ns#organization-name> "OSTrails Project"@en;
