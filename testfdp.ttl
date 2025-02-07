@@ -1,0 +1,46 @@
+
+
+<https://tests.ostrails.eu/tests/fc_data_authorization/about#container> a <http://www.w3.org/ns/ldp#DirectContainer>;
+  <http://www.w3.org/ns/ldp#contains> <https://tests.ostrails.eu/tests/fc_data_authorization/about>;
+  <http://www.w3.org/ns/ldp#hasMemberRelation> <http://www.w3.org/ns/ldp#contains>;
+  <http://www.w3.org/ns/ldp#membershipResource> <https://tests.ostrails.eu/tests/fc_data_authorization/about#fdp> .
+
+<urn:fairchampion:testmetadata:individual0a7243ee-f2d6-41f2-93d3-494baee120bd> a <http://www.w3.org/2006/vcard/ns#Individual>;
+  <http://www.w3.org/2006/vcard/ns#fn> "Mark D Wilkinson"@en;
+  <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:mark.wilkinson@upm.es> .
+
+<urn:fairchampion:testmetadata:org:cf3f05b1-e971-4367-975f-ddd88f1ac946> a <http://www.w3.org/2006/vcard/ns#Organization>;
+  <http://www.w3.org/2006/vcard/ns#organization-name> "OSTrails Project"@en;
+  <http://www.w3.org/2006/vcard/ns#url> <https://ostrails.eu/> .
+
+<https://tests.ostrails.eu/tests/fc_data_authorization/about#fdp> a <https://w3id.org/fdp/fdp-o#FAIRDataPoint>,
+    <https://w3id.org/fdp/fdp-o#MetadataService>,
+    <http://www.w3.org/ns/dcat#Resource>;
+  <http://purl.org/dc/terms/title> "Imported DCAT from https://tests.ostrails.eu/tests/fc_data_authorization/about"@en;
+  <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <http://purl.org/dc/terms/publisher> <urn:anonymous:forfdpcompliance>;
+  <http://www.w3.org/ns/dcat#keyword> "fair data point"@en;
+  <http://www.w3.org/ns/dcat#landingPage> <https://tests.ostrails.eu/tests/fc_data_authorization/about#fdp>;
+  <http://www.w3.org/ns/ldp#contains> <https://tests.ostrails.eu/tests/fc_data_authorization/about>;
+  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable> .
+
+<https://tests.ostrails.eu/tests/fc_data_authorization> <http://semanticscience.org/resource/SIO_000233> <https://tests.ostrails.eu/tests/fc_data_authorization/about> .
+
+<https://tests.ostrails.eu/tests/fc_data_authorization/about> a <http://www.w3.org/ns/dcat#DataService>,
+    <https://w3id.org/ftr#Test>;
+  <http://purl.org/dc/terms/title> "FAIR Champion: Data Authorization"@en;
+  <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-6960-357X>;
+  <http://purl.org/dc/terms/description> "Test a discovered data GUID for the ability to implement authentication and authorization in its resolution protocol.  Currently passes InChI Keys, DOIs, Handles, and URLs.  It also searches the metadata for the Dublin Core 'accessRights' property, which may point to a document describing the data access process. Recognition of other identifiers will be added upon request by the community."@en;
+  <http://purl.org/dc/terms/identifier> <https://tests.ostrails.eu/tests/fc_data_authorization>;
+  <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/>;
+  <http://purl.org/dc/terms/type> <http://edamontology.org/operation_2428>;
+  <http://www.w3.org/ns/dcat#contactPoint> <urn:fairchampion:testmetadata:individual0a7243ee-f2d6-41f2-93d3-494baee120bd>,
+    <urn:fairchampion:testmetadata:org:cf3f05b1-e971-4367-975f-ddd88f1ac946>;
+  <http://www.w3.org/ns/dcat#endpointDescription> <https://tests.ostrails.eu/tests/fc_data_authorization>;
+  <http://www.w3.org/ns/dcat#endpointURL> <https://tests.ostrails.eu/tests/fc_data_authorization>;
+  <http://www.w3.org/ns/dcat#keyword> "FAIR Assessment"@en,
+    "FAIR Principles"@en;
+  <http://www.w3.org/ns/dcat#theme> <http://edamontology.org/topic_4012>;
+  <http://www.w3.org/ns/dcat#version> "Hvst-1.4.2:Tst-2.0.0"@en;
+  <https://w3id.org/ejp-rd/vocabulary#vpConnection> <https://w3id.org/ejp-rd/vocabulary#VPDiscoverable>;
+  <https://www.w3.org/TR/vocab-dqv/inDimension> <https://w3id.org/fair/principles/latest/A1.2> .
