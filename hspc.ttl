@@ -17,6 +17,6 @@
   dcat:contactPoint <https://hpscreg.eu/contact>;
   <https://w3id.org/ejp-rd/vocabulary/personalData> false;
   dc:language <http://www.wikidata.org/entity/Q1860>;
-  ejprd:vpConnection ejprd:VPDiscoverable, ejprd:VPContentDiscovery;
+  ejprd:vpConnection ejprd:VPDiscoverable ;
   dc:hasVersion "1";
   dcat:theme clo:0037308 .
