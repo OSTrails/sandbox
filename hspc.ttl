@@ -15,7 +15,7 @@
   dc:title "hPSCreg";
   dc:description "The human pluripotent stem cell registry (hPSCreg), accessible at https://hpscreg.eu, is a public registry and data portal for human embryonic and induced pluripotent stem cell lines (hESC and hiPSC).";  
   dcat:contactPoint <https://hpscreg.eu/contact>;
-  <https://purl.archive.org/ejp-rd/vocabulary/personalData> false;
+  <https://w3id.org/ejp-rd/vocabulary#personalData> false;
   dc:language <http://www.wikidata.org/entity/Q1860>;
   ejprd:vpConnection ejprd:VPDiscoverable, ejprd:VPContentDiscovery;
   dc:hasVersion "1";
