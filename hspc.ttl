@@ -28,4 +28,4 @@ dc:publisher <urn:local:ejp-rd:publisher123456768> ;
 <urn:local:ejp-rd:publisher123456768> a foaf:Organization ;
 foaf:name "hSPCreg" ;
 dc:description "hPSCreg stem cell registry" ;
-dcast:landingPage <https://hpscreg.eu> .
+dcat:landingPage <https://hpscreg.eu> .
