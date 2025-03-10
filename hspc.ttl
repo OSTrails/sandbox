@@ -3,7 +3,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix fdpo: <https://w3id.org/fdp/fdp-o#> .
-@prefix ejprd: <https://purl.archive.org/ejp-rd/vocabulary/> .
+@prefix ejprd: <https://w3id.org/ejp-rd/vocabulary#> .
 @prefix clo: <http://purl.obolibrary.org/obo/CLO_> .
 
 <https://www.ibmt.fraunhofer.de/> a foaf:Organization;
