@@ -13,10 +13,19 @@
 <https://hpscreg.eu> a dcat:Resource, dcat:DataService, fdpo:FAIRDataPoint, fdpo:MetadataService;  
   dc:license <https://ejp-rd-vp.github.io/resource-metadata-schema/license/>;
   dc:title "hPSCreg";
+dcat:landingPage <https://hpscreg.eu> ;
+  dcat:keyword "stem cell";
+dc:publisher <urn:local:ejp-rd:publisher123456768> ;
+  
   dc:description "The human pluripotent stem cell registry (hPSCreg), accessible at https://hpscreg.eu, is a public registry and data portal for human embryonic and induced pluripotent stem cell lines (hESC and hiPSC).";  
   dcat:contactPoint <https://hpscreg.eu/contact>;
   <https://w3id.org/ejp-rd/vocabulary#personalData> false;
   dc:language <http://www.wikidata.org/entity/Q1860>;
-  ejprd:vpConnection ejprd:VPDiscoverable, ejprd:VPContentDiscovery;
+  ejprd:vpConnection ejprd:VPDiscoverable ;
   dc:hasVersion "1";
   dcat:theme clo:0037308 .
+
+<urn:local:ejp-rd:publisher123456768> a foaf:Organization ;
+foaf:name "hSPCreg" ;
+dc:description "hPSCreg stem cell registry" ;
+dcast:landingPage <https://hpscreg.eu> .
