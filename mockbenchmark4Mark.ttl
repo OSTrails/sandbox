@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ftr: <https://w3id.org/ftr#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+
+<https://tests.ostrails.eu/benchmark4Mark> a ftr:Benchmark ;
+    dcterms:identifier <https://tests.ostrails.eu/benchmark4Mark> ;
+    dcterms:title "benchmark4Mark"^^xsd:string ;
+    rdfs:label "benchmark4Mark"^^xsd:string ;
+    vivo:abbreviation "B4Mark"^^xsd:string ;
+    dcterms:description """This is a mock benchmark for Mark during the Hackathon"""^^xsd:string ;
+    dcat:keyword  "Benchmark"@en,  "FAIR"@en,  "OStrails"@en; 
+    dcat:landingPage <https://tests.ostrails.eu/> ;
+    
+    dcat:version "0.0.1"^^xsd:string ;
+    dcterms:license <http://creativecommons.org/licenses/by/2.0/> ;
+    ftr:status "Active"@en ;
+    
+    dcterms:creator <https://fairdata.systems/> ; 
+    dcat:contactPoint <https://orcid.org/0000-0001-6960-357X>  ; 
+    ftr:hasAssociatedMetric  <https://doi.org/10.25504/FAIRsharing.EwnE1n>,  <https://doi.org/10.25504/FAIRsharing.o8TYnW>. 
+
+
+<https://fairdata.systems/> a vcard:Organization ;
+    vcard:organization-name "FAIRDataSystems"^^xsd:string . 
+
+<https://orcid.org/0000-0001-6960-357X> a vcard:Individual ;
+    vcard:fn "Mark Denis Wilkinson"^^xsd:string ;
+    vcard:hasEmail <mailto:mark.wilkinson@upm.es> . 
+
+<https://doi.org/10.25504/FAIRsharing.EwnE1n> a dqv:Metric ;
+    rdfs:label "FAIR Metrics - Access authorization"^^xsd:string ;
+    dcterms:identifier <https://doi.org/10.25504/FAIRsharing.EwnE1n> . 
+<https://doi.org/10.25504/FAIRsharing.o8TYnW> a dqv:Metric ;
+    rdfs:label "FAIR Metrics - Resource Identifier in Metadata"^^xsd:string ;
+    dcterms:identifier <https://doi.org/10.25504/FAIRsharing.o8TYnW> . 
