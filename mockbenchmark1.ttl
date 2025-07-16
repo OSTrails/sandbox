@@ -29,8 +29,9 @@
     vcard:fn "Mark Wilkinson"^^xsd:string ;
     vcard:hasEmail <mailto:mark.wilkinson@upm.es> .
 <https://doi.org/10.25504/FAIRsharing.VrP6sm> a dqv:Metric ;
-    rdfs:label "FAIR Maturity Indicator Gen2-MI-A1.2"^^xsd:string ;
+    rdfs:label "FAIR Metric - FAIR Maturity Indicator - Protocol supports authentication/authorization - Gen2-MI-A1.2
+(FM Gen2-MI-A1.2)"^^xsd:string ;
     dcterms:identifier <https://doi.org/10.25504/FAIRsharing.VrP6sm> .
-<https://purl.org/fair-metrics/FM_R1.1> a dqv:Metric ;
+<https://doi.org/10.25504/FAIRsharing.fsB7NK> a dqv:Metric ;
     rdfs:label "FAIR Metrics - Accessible Usage License"^^xsd:string ;
     dcterms:identifier <https://doi.org/10.25504/FAIRsharing.fsB7NK> .
